@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: rgb(223, 192, 113);
+}
+
+.cont-tdl {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(notes.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 900px;
+}
+
+h2 {
+  padding-top: 120px;
+}
+
+.input-tdl {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 60% 10%;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 25px;
+    outline: none;
+    border-style: none;
+    border-radius: 3px;
+    padding: 3px;
+    color: darkslategray;
+
+}
+
+input[type="button"] {
+    height: 30px;
+    outline: none;
+    border-style: none;
+    border-radius: 3px;
+    color: darkslategray;
+    background: rgb(36, 160, 218);
+
+}
+.new-tasks{
+    width: 300px;
+    height: 25px;
+}
