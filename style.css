@@ -18,14 +18,14 @@ body {
 }
 
 h2 {
-  padding-top: 120px;
+    padding-top: 120px;
 }
 
 .input-tdl {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 60% 10%;
-    gap: 20px;
+    grid-template-columns: 65% 10%;
+    gap: 10px;
     justify-content: center;
 
 }
@@ -37,7 +37,12 @@ input[type="text"] {
     border-style: none;
     border-radius: 3px;
     padding: 3px;
-    color: darkslategray;
+    color: rgb(125, 141, 141);
+    font-size: 10px;
+}
+
+input[type="text"]:focus {
+    font-size: 15px;
 
 }
 
@@ -50,7 +55,32 @@ input[type="button"] {
     background: rgb(36, 160, 218);
 
 }
-.new-tasks{
-    width: 300px;
+
+.new-tasks {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 5% 60% 10%;
+    margin-top: 18px;
+    gap: 5px;
+}
+
+.check-button {
+    border-style: none;
+    border-radius: 3px;
+}
+
+.trash-button {
     height: 25px;
+    border-style: none;
+    border-radius: 3px;
+    color: rgb(247, 248, 248);
+    background: rgb(245, 61, 61);
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+img {
+    pointer-events: none;
 }
