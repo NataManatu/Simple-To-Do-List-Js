@@ -29,10 +29,13 @@ function clickButton(e) {
 
     tasktdl.appendChild(newTasks);
 
+
+    localStorage.setItem("task", JSON.stringify(inputTask.value));
+
     inputTask.value = ''
 
-    localStorage.setItem("task", JSON.stringify(inputTask.value))
-    console.log(localStorage)
+    
+
 }
 
 
