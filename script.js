@@ -10,7 +10,7 @@ function clickButton(e) {
 
 
     let checkbutton = document.createElement('button');
-    checkbutton.innerHTML = '<img src="tick.png" width="20px" height="20px"/>';
+    checkbutton.innerHTML = '<img src="tick.png" class="ic-check" width="20px" height="20px"/>';
     checkbutton.classList.add('check-button');
     newTasks.appendChild(checkbutton);
 
@@ -23,7 +23,7 @@ function clickButton(e) {
     if (inputTask.value === '') return;
 
     let trashbutton = document.createElement('button');
-    trashbutton.innerHTML = '<img src="delete.png" width="22px" height="22px"/>';
+    trashbutton.innerHTML = '<img src="delete.png" class="ic-trash"width="22px" height="22px"/>';
     trashbutton.classList.add("trash-button");
     newTasks.appendChild(trashbutton);
 
